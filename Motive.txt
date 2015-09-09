@@ -1,0 +1,11 @@
+Problems to solve.
+
+1. Minimum changes with backend services change.
+2. Get latency and performance issue of service and backend services.
+3. Providing support for caching.
+4. Make it as a framework which will help in faster development of aggregator type services.
+5. Better service and error level log visibility.
+
+
+Interceptor can be called for every service. If there is any exception in complete flow then
+It can be logged in "afterCompletion" method.
